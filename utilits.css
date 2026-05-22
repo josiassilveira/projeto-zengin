@@ -33,8 +33,9 @@
         --max-width: 80rem;
     }
 
-    .disktop{
+    .desktop{
         display: initial;
+    }
 
     .even-colomns{
         grid-auto-flow: column;
