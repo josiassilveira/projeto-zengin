@@ -9,17 +9,19 @@
     padding: 0;
     font:inherit;
 
+
     --webkit-font-smoothing: antialiased;
     --moz-osx-font-smoothing: grayscale;
     /* Esses dois anteriores servem para melhorar a qualidade do texto em navegadores */
+}
 
     :root{
-        --bg-color: #09090B;
-        --surface-color: #18181B;
-        --stroke-color: #27272A;
-        --text-color-secondary: #A1A1AA;
-        --text-color-primary: #F4F4F5;
-        --brand-color-primary: #F7B733;
+        --bg-color:#09090B;
+        --surface-color:#18181B;
+        --stroke-color:#27272A;
+        --text-color-secondary:#A1A1AA;
+        --text-color-primary:#F4F4F5;
+        --brand-color-primary:#F7B733;
         --brand-color-secondary: #FC4A1A;
 
         --ff-sans: 'Inter', system-ui, sans-serif;
@@ -28,7 +30,7 @@
         --fw-bold: 800;
 
         --fs-sm: 0.875rem;
-        --fs-md: 1rem;
+        --fs-base: 1rem;
         --fs-lg: 1.25rem;
         --fs-xl: 1.5rem;
         --fs-2xl: 2.5rem;
@@ -43,7 +45,7 @@
     html{
         font-family: var(--ff-sans);
         font-weight: var(--fw-base);
-        font-size: var(--fs-md);
+        font-size: var(--fs-base);
         line-height: 1.6;
         color: var(--text-color-primary);
     }
@@ -69,7 +71,7 @@
 
     a{
         text-decoration: none;
-        color: inherit
+        color: inherit;
     }
 
     ul[role="list"] {
@@ -89,4 +91,3 @@
             --px-lg: 2rem;
         }
     }
-}
