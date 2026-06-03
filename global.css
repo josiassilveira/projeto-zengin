@@ -69,6 +69,10 @@
         font-size: var(--fs-xl);
     }
 
+    h3{
+        font-size: var(--fs-lg) ;
+    }
+
     a{
         text-decoration: none;
         color: inherit;
