@@ -8,6 +8,7 @@
 @import url(about.css);
 @import url(cards.css);
 @import url(features.css) (width >= 80em);
+@import url(pricing.css);
 
 /*
     Configuração dos botões, utilizando as classes .btn e .btn-{tamanho} para definir o estilo e o tamanho dos botões.
